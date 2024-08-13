@@ -364,7 +364,6 @@ section .button button:hover{
   display: block;
 }
 
-
 /* My Projects CSS */
 .projects .content {
   padding: 20px;
@@ -386,7 +385,7 @@ section .button button:hover{
 
 .projects .boxes .box {
   margin: 20px 0;
-  width: calc(100% / 3 - 20px);
+  width: calc(50% - 20px); /* Adjusted to take up half of the space minus the margin */
   text-align: center;
   border-radius: 12px;
   padding: 30px 20px;
